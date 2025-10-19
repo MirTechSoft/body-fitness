@@ -1,0 +1,131 @@
+/* Default style is for large screens in style.css */
+/* media.css: Mobile & Tablet Responsive Styling */
+
+@media screen and (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-row,
+  .signup-row,
+  .contact-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .about-left-col,
+  .about-right-col,
+  .signup-left-col,
+  .signup-right-col,
+  .contact-left-col,
+  .contact-right-col {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .signup-right-col h1 {
+    font-size: 60px;
+  }
+
+  .signup-right-col h2 {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+
+  .services-row {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    padding: 10px;
+  }
+
+  .member-card {
+    width: 90%;
+  }
+
+  .work-box {
+    margin: 10px;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  .form input[type="text"],
+  textarea {
+    width: 90%;
+  }
+
+  button,
+  .btn,
+  .A_btn {
+    width: 100%;
+  }
+
+  #footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu a {
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .right h1 {
+    font-size: 36px;
+  }
+
+  .right p {
+    font-size: 18px;
+  }
+
+  .about-left-col h1 {
+    font-size: 36px;
+  }
+
+  .services-info h1,
+  .services-info p {
+    font-size: 28px;
+  }
+
+  .signup-right-col h1 {
+    font-size: 50px;
+  }
+
+  .signup-right-col h2 {
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+
+  .form input[type="text"],
+  textarea {
+    font-size: 14px;
+  }
+
+  #footer h1 {
+    font-size: 36px;
+  }
+
+  #footer p {
+    font-size: 18px;
+  }
+}
