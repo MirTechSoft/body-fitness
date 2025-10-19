@@ -33,6 +33,13 @@ It includes sections about workouts, trainers, services, testimonials, and conta
 | Layout | Responsive & Grid-based design |
 
 ---
-
-git clone https://github.com/YourUsername/body-fitness.git
-cd body-fitness
+Project Structure
+📦 body-fitness
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   └── (all fitness-related images)
+└── README.md
